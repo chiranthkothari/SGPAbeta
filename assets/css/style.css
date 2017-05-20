@@ -84,7 +84,10 @@ nav a:hover{
 	text-decoration: none;
 	background: grey;
 	color: white;
-
+}
+nav a:focus{
+    text-decoration: none;
+    color: white;
 }
 .menu{
 	width: 240px;
