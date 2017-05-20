@@ -94,6 +94,8 @@ nav a:hover{
 	height: 100vh;
 	left: -240px;
 	transition: all 0.3s ease-in-out;
+	overflow-y: scroll;
+	/*overflow: hidden;*/
 }
 .menu-button{
 	padding: 5px 7px;
