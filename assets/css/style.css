@@ -94,9 +94,12 @@ nav a:focus{
 	background: #595959;
 	color: #fff;
 	position: absolute;
-	height: 100vh;
+	height: 100%;
 	left: -240px;
 	transition: all 0.2s ease-in-out;
+	overflow: hidden;
+}
+.menu:hover{
 	overflow-y: scroll;
 }
 .menu-button{
