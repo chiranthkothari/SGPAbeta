@@ -54,11 +54,15 @@ a{
 }
 li{
 	list-style-type: none;
+	text-align: left;
 }
 nav{
 	width: 100%;
-	text-align: center;
+	text-align: left;
 	z-index: 50;
+}
+.nav-head-semester{
+	padding-left: 15px;
 }
 nav a{
 	display: block;
@@ -66,6 +70,8 @@ nav a{
 	border-bottom: 1px solid #727271;
 	color: #fff;
 	font-size: 20px;
+	padding-left: 15px;
+
 }
 @media screen and (max-width:639px){
 	nav a{
